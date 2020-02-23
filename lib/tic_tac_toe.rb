@@ -125,9 +125,6 @@ class TicTacToe
 
   def play
     until over?() do
-
-
-      
       turn()
     end
     if (won?())
